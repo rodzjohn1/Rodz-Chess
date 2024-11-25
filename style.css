@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.navbar li {
+    margin: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #555;
+}
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #e68a00;
+}
+.features {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+}
+.features h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+.feature-card:hover {
+    transform: scale(1.05);
+}
+.testimonials {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+.testimonials h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.testimonial-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
